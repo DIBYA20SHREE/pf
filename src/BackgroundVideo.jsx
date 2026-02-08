@@ -10,6 +10,8 @@ const BackgroundVideo = () => {
         muted
         playsInline
         className="background-video"
+        preload="metadata"
+        controls
       >
         <source src={video} type="video/mp4" />
       </video>
