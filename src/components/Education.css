@@ -1,0 +1,91 @@
+.section {
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2.2rem;
+  letter-spacing: 0.2px;
+}
+
+/* One education row */
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.8rem 0;
+}
+
+/* LEFT SIDE: logo + text */
+.edu-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left; /* IMPORTANT */
+  max-width: 78%;
+}
+
+/* Logo */
+.edu-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+  padding: 4px;
+  flex-shrink: 0;
+}
+
+/* Institution name */
+.edu-left h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* Degree line */
+.edu-sub {
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-top: 0.15rem;
+}
+
+/* Meta / CGPA / Focus */
+.edu-meta {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.7;
+  margin-top: 0.1rem;
+}
+
+/* RIGHT SIDE: date */
+.edu-right {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  white-space: nowrap;
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+/* Subtle divider like reference */
+.edu-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .edu-item {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .edu-right {
+    text-align: left;
+    margin-left: 3.2rem; /* aligns with text, not logo */
+  }
+}

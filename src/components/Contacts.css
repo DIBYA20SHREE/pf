@@ -1,0 +1,55 @@
+.contacts-section {
+  max-width: 900px;
+  margin: 0 auto 5rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+/* Small intro line */
+.contacts-eyebrow {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.4px;
+}
+
+/* Main heading */
+.contacts-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.4rem;
+}
+
+/* Text content */
+.contacts-content p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+/* X link styling */
+.contact-link {
+  color: #1da1f2;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .contacts-title {
+    font-size: 1.5rem;
+  }
+
+  .contacts-content p {
+    font-size: 0.95rem;
+  }
+}
