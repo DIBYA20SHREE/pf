@@ -29,7 +29,7 @@ const LowerNavbar = () => {
       </a>
 
       <a
-        href="https://hashnode.com/"
+        href="https://hashnode.com/@DibyaC"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Hashnode"
